@@ -1,0 +1,130 @@
+:root {
+    --dark-magenta: #502050;
+    --soft-pink: #ee68a4;
+
+    /* Neutrals */
+    --dark-grey-magenta: #937b92;
+    --light-grey-magenta: #f7f2f7;
+    --white: #ffffff;
+
+    --fonte-principal: 'League Spartan', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+}
+
+section {
+    padding: 118px 165px;
+
+}
+
+.header--testimonials {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 87px;
+}
+
+h1 {
+    color: var(--dark-magenta);
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 0.85;
+
+}
+
+.desc--titulo {
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--dark-grey-magenta);
+    line-height: 1.3;
+    
+}
+.container--titulo {
+    max-width: 512px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container--where {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 512px;
+}
+
+.ratings--agregado {
+    background-color: var(--light-grey-magenta);
+    padding: 20px 32px;
+    color: var(--dark-magenta);
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    gap: 32.5px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+
+    
+}
+
+.container--stars {
+    display: flex;
+    gap: 5px;
+}
+
+.container--ratings {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.rating {
+    flex: 0 0 350px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--white);
+    background-color: var(--dark-magenta);
+    border-radius: 8px;
+    padding: 40px 32px 35px 32px;
+}
+
+
+
+.rating h2 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.verificado {
+color: var(--soft-pink);
+font-size: 16px;
+font-weight: 400;
+}
+
+blockquote {
+    margin-top: 31px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
+}
+
+.rating img {
+    border-radius: 40px;
+    width: 64px;
+    height: 64px;
+}
+
+.titulo--rating {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

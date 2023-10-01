@@ -46,7 +46,7 @@ h1 {
     
 }
 .container--titulo {
-    max-width: 512px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -55,12 +55,13 @@ h1 {
 .container--where {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     gap: 16px;
-    max-width: 512px;
+    min-width: 512px;
 }
 
 .ratings--agregado {
+    flex-grow: 0;
+    flex-shrink: 0;
     background-color: var(--light-grey-magenta);
     padding: 20px 32px;
     color: var(--dark-magenta);
@@ -71,7 +72,8 @@ h1 {
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-    min-width: 500px;
+    width: 445px;
+    
 
     
 }
@@ -146,13 +148,13 @@ blockquote {
 }
 
 .container--where li:first-child {
-    margin-right: 90px;
+    align-self: flex-start;
 }
 
 .container--where li:nth-child(2) {
-    margin-right: 45px;
+    align-self: center;
 }
 
 .container--where li:last-child {
-    margin-right: 0px;
+    align-self: flex-end;
 }
